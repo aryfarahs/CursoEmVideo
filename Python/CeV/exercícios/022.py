@@ -1,0 +1,7 @@
+frase = str(input('Qual é seu nome completo? ')).strip()
+print('MAIÚSCULO:', frase.upper())
+print('MINÚSCULO:', frase.lower())
+print('Seu nome tem {} letras.'.format(len(frase) - frase.count(' ')))
+h = frase.split()
+n = (h[0])
+print('Seu primeiro nome é {} e tem {} letras.'.format(n, len(n)))

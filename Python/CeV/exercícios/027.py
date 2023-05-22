@@ -1,0 +1,5 @@
+n = input('Digite seu nome completo: ').strip().split()
+f = n[0].capitalize()
+l = n[len(n)-1].capitalize()
+print(f'Seu primeiro nome é {f}.')
+print(f'Seu último nome é {l}.')
