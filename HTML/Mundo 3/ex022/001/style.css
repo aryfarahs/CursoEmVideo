@@ -16,9 +16,9 @@ div#q2 {
 }
 
 div#q3 {
-  background-image: url('imagens/pattern001.png');  
+  background-image: url('../imagens/pattern001.png');  
 }
 
 body {
-    background-image: url("imagens/wallpaper001.jpg");
+    background-image: url("../imagens/wallpaper001.jpg");
 }
