@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 450px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+thead, tfoot > tr {
+    background-color: lightgray;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+td.direita {
+    text-align: right;
+}
+
+.num {
+    color: darkcyan;
+    text-align: right;
+    
+}
+
+.num:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
